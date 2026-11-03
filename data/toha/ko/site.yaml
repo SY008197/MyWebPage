@@ -22,7 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: 상영의 블로그
+  title: 상영의 포트폴리오
   type: website
   description: Portfolio and personal blog of John Doe.
   image: images/author/john.png

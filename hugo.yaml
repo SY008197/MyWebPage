@@ -1,8 +1,8 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://toha.hugo-themes.com
+baseURL: https://sy008197.github.io/MyWebPage/
 
 locale: en-us
-title: "John's Blog"
+title: "상영의 포트폴리오"
 
 # Use Hugo modules to add theme
 module:
@@ -21,19 +21,20 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  ko:
+    locale: ko
+    label: 한국어
+    title: "상영의 포트폴리오"
+    weight: 1
   en:
     locale: en
     label: English
     title: "John's Blog"
-    weight: 1
-  bn:
-    locale: bn
-    label: বাংলা
-    title: জনের ব্লগ
     weight: 2
 
+
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: ko
 
 # Allow raw html in markdown file
 markup:
@@ -88,7 +89,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-themes/toha-example-site
+  gitRepo: https://github.com/SY008197/MyWebPage
 
   # Default branch of your Git repo
   gitBranch: main
