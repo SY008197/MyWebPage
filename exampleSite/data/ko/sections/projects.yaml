@@ -1,23 +1,22 @@
 # section information
 section:
-  name: প্রোজেক্ট
+  name: Projects
   id: projects
   enable: true
-  weight: 4
+  weight: 5
   showOnNavbar: true
-  template: sections/projects.html
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # filter buttons
 buttons:
-- name: সব বিষয়
+- name: All
   filter: "all"
-- name: প্রোফেসনাল
+- name: Professional
   filter: "professional"
-- name: প্রাতিষ্ঠানিক
+- name: Academic
   filter: "academic"
-- name: শখের প্রোজেক্ট
+- name: Hobby
   filter: "hobby"
 
 # your projects
@@ -48,7 +47,7 @@ projects:
   tags: ["academic","iot"]
 
 - name: Rich Content
-  url: "posts/category/sub-category/rich-content/"
+  url: "/posts/category/sub-category/rich-content/"
   # Optional: control how project links open. Allowed values: "blank" (default) or "self".
   # "blank" opens links in a new tab, "self" opens them in the current tab.
   target: self
@@ -56,8 +55,8 @@ projects:
   # Defaults to false (tags are rendered as non-clickable badges).
   linkTags: true
   summary: Links on this post will open in the current tab. And Tags are clickable links in the post tags.
-  tags: ["মার্কডাউন","কন্টেন্ট সাজানো","বহুভাষিক"]
-  
+  tags: ["Multi-lingual","Content Organization","Markdown"]
+
 - name: Nocode
   logo: /images/sections/projects/no-code.png
   role: Nothing
@@ -69,6 +68,7 @@ projects:
 
 - name: Toha
   logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/toha_website.png
   role: Owner
   timeline: "Jun 2019 - Present"
   repo: https://github.com/hossainemruz/toha
