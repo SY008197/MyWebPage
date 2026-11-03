@@ -33,7 +33,7 @@ languages:
   en:
     locale: en
     label: English
-    title: "John's Blog"
+    title: "Jang's Blog"
     weight: 2
 
 
