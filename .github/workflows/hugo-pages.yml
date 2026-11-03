@@ -21,6 +21,12 @@ jobs:
           submodules: true
           fetch-depth: 0
       
+      # [추가된 부분] Hugo Modules 다운로드를 위한 Go 설치
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '>=1.20'
+          
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
