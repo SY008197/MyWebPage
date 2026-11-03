@@ -1,0 +1,20 @@
+# some information about you
+name: "장상영"
+nickname: "상영"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "안녕하세요, 저는"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "sangy1012@jbnu.ac.kr"
+  phone: "+0123456789"
+  github: "https://github.com/SY008197"
+  linkedin: johndoe
+  researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - 전북대학교 컴퓨터인공지능학부 학부생입니다.
+  - 취미는 일렉기타와 러닝입니다.
+  - 갑각류 알러지가 있어요ㅜㅜ
+  - 컴인지 화이팅!
