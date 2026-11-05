@@ -33,7 +33,7 @@ languages:
   en:
     locale: en
     label: English
-    title: "Jang's Blog"
+    title: "Sangyeong's Portfolio"
     weight: 2
 
 
