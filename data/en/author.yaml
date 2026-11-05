@@ -1,5 +1,5 @@
 # some information about you
-name: "Jang SangYeong"
+name: "Jang Sangyeong"
 nickname: "Jang"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
@@ -10,7 +10,7 @@ contactInfo:
   phone: "+0123456789"
   github: "https://github.com/SY008197"
   linkedin: JangSangYeong
-  researchgate: Jang SangYeong
+  researchgate: Jang Sangyseong
 
 # some summary about what you do
 summary:

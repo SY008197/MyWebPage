@@ -22,7 +22,7 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Jang's Blog
+  title: Sangyeong's Portfolio
   type: website
   description: Portfolio and personal blog of John Doe.
   image: images/author/john.png
