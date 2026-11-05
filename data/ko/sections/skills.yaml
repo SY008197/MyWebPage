@@ -13,59 +13,79 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
+- name: 전공
+  filter: "major"
+- name: 취미
+  filter: "hobby"
+- name: 수학
+  filter: "math"
+- name: 언어
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+# 전체: all
+# 전공: 알고리즘, 이산수학, 선형대수, 확통, 자료구조, 컴구조, C++, 객지, 리눅스
+# 언어: 파이썬, c/c++, Java, c#
+# 수학: 이산수학, 확통, 선형대수
+# 취미: 일렉기타, 러닝 
+- name: 알고리즘
+  #logo: 
+  summary: "알고리즘 어쩌고"
+  categories: ["major"]
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: 자료구조
+  #logo: 
+  summary: "자료구조 어쩌고"
+  categories: ["major"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: 컴퓨터구조
+  #logo: 
+  summary: "컴구조 어쩌고"
+  categories: ["major"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: 리눅스
+  #logo: 
+  summary: "리눅스 어쩌고"
+  categories: ["major"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: 객체지향 프로그래밍
+  #logo: 
+  summary: "객지 어쩌고"
+  categories: ["major"]
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
-
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: 리눅스
+  #logo: 
+  summary: "리눅스 어쩌고"
+  categories: ["major"]
 
 - name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  #logo: 
+  summary: "C++ 어쩌고"
+  categories: ["major", "language"]
+
+- name: 선형대수학
+  #logo: 
+  summary: "선대수 어쩌고"
+  categories: ["major", "math"]
+
+- name: 이산수학
+  #logo: 
+  summary: "이산수학 어쩌고"
+  categories: ["major", "math"]
+
+- name: 확률및통계
+  #logo: 
+  summary: "확통 어쩌고"
+  categories: ["major", "math"]
+
+- name: 일렉기타
+  #logo: 
+  summary: "기타 어쩌고"
+  categories: ["hobby"]
+
+- name: 러닝
+  #logo: 
+  summary: "러닝 어쩌고"
+  categories: ["hobby"]
