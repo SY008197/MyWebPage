@@ -4,20 +4,27 @@
   <a class="text-decoration-none" {{ if .url }}href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"{{ end }}>
     <div class="card" style="height: auto;">
       <div class="card-head d-flex align-items-center justify-content-center"
-        {{ if not .summary }}style="border-bottom: none !important; padding: 0.65rem 0.75rem !important;"{{ end }}
+        {{ if not .summary }}style="border-bottom: none !important; padding: 0.65rem 0.5rem !important; min-height: 46px;"{{ end }}
       >
+        {{ $titleStyle := "white-space: nowrap;" }}
+        {{ if gt (len .name) 16 }}
+          {{ $titleStyle = "white-space: nowrap; font-size: 0.76rem; letter-spacing: -0.02em;" }}
+        {{ else if gt (len .name) 12 }}
+          {{ $titleStyle = "white-space: nowrap; font-size: 0.88rem;" }}
+        {{ end }}
+
         {{ if .logo }}
           {{ $logoImage := resources.Get .logo }}
           {{ if ne $logoImage.MediaType.SubType "svg" }}
             {{ $logoImage = $logoImage.Fit "24x24" }}
           {{ end }}
-          <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" style="margin-bottom: 0; margin-right: 0.45rem;" />
-          <h5 class="card-title mb-0">{{ .name }}</h5>
+          <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" style="margin-bottom: 0; margin-right: 0.4rem; flex-shrink: 0;" />
+          <h5 class="card-title mb-0" style="{{ $titleStyle | safeCSS }}">{{ .name }}</h5>
         {{ else if .icon }}
           {{ $iconName := .icon }}
-          <h5 class="card-title mb-0"><span class="{{ $iconName }}"> {{ .name }}</span></h5>
+          <h5 class="card-title mb-0" style="{{ $titleStyle | safeCSS }}"><span class="{{ $iconName }}"> {{ .name }}</span></h5>
         {{ else }}
-          <h5 class="card-title mb-0">{{ .name }}</h5>
+          <h5 class="card-title mb-0" style="{{ $titleStyle | safeCSS }}">{{ .name }}</h5>
         {{ end }}
       </div>
       {{ if .summary }}
