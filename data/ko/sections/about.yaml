@@ -12,14 +12,14 @@ designation: 컴퓨터인공지능학부 학부생
 # your company information
 company:
   name: 전북대학교
-  url: "https://www.jbnu.ac.kr/web/index.do"
+  url: "https://www.jbnu.ac.kr"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: '안녕하세요, 전북대학교에서 컴퓨터인공지능을 전공하고있는 장상영입니다. 게임 개발에 관심이 있어 게임 개발 동아리인 GPU에 가입하여 Unity Engine기반 게임 개발 프로젝트 등의 활동을 하고있습니다.'
+summary: '안녕하세요, 전북대학교에서 컴퓨터인공지능을 전공하고있는 장상영입니다. 관심분야는 게임 개발이며, 게임 개발 동아리인 GPU에서 Unity Engine기반 게임 개발 프로젝트 등의 활동을 하고있습니다.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
