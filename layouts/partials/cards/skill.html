@@ -1,28 +1,30 @@
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+<div class="col-6 col-sm-4 col-md-3 col-lg-2 pt-2 filtr-item"
   data-category='all, {{ with .categories }}{{ delimit . ","}}{{ end }}'
 >
   <a class="text-decoration-none" {{ if .url }}href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"{{ end }}>
-    <div class="card">
-      <div class="card-head d-flex">
+    <div class="card" style="height: auto;">
+      <div class="card-head d-flex align-items-center justify-content-center"
+        {{ if not .summary }}style="border-bottom: none !important; padding: 0.65rem 0.75rem !important;"{{ end }}
+      >
         {{ if .logo }}
           {{ $logoImage := resources.Get .logo }}
-          {{/*  svg don't support "Fit" operation   */}}
           {{ if ne $logoImage.MediaType.SubType "svg" }}
             {{ $logoImage = $logoImage.Fit "24x24" }}
           {{ end }}
-        
-          <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
-          <h5 class="card-title">{{ .name }}</h5>
+          <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" style="margin-bottom: 0; margin-right: 0.45rem;" />
+          <h5 class="card-title mb-0">{{ .name }}</h5>
         {{ else if .icon }}
           {{ $iconName := .icon }}
-          <h5 class="card-title"><span class="{{ $iconName }}"> {{ .name }}</span></h5>
+          <h5 class="card-title mb-0"><span class="{{ $iconName }}"> {{ .name }}</span></h5>
         {{ else }}
-          <h5 class="card-title">{{ .name }}</h5>
+          <h5 class="card-title mb-0">{{ .name }}</h5>
         {{ end }}
       </div>
+      {{ if .summary }}
       <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">{{ .summary | markdownify }}</p>
       </div>
+      {{ end }}
     </div>
   </a>
 </div>
