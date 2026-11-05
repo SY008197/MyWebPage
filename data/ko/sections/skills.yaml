@@ -60,10 +60,20 @@ skills:
   summary: "리눅스 어쩌고"
   categories: ["major"]
 
-- name: C++
+- name: C/C++
   #logo: 
-  summary: "C++ 어쩌고"
+  summary: "C/C++ 어쩌고"
   categories: ["major", "language"]
+
+- name: Java
+  #logo: 
+  summary: "자바 어쩌고"
+  categories: ["language"]
+
+- name: Python
+  #logo: 
+  summary: "파이썬 어쩌고"
+  categories: ["language"]
 
 - name: 선형대수학
   #logo: 
