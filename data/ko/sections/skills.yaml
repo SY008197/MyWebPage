@@ -31,66 +31,40 @@ skills:
 # 수학: 이산수학, 확통, 선형대수
 # 취미: 일렉기타, 러닝 
 - name: 알고리즘
-  #logo: 
-  #summary: "알고리즘 어쩌고"
   categories: ["major"]
 
 - name: 자료구조
-  #logo: 
-  summary: "자료구조 어쩌고"
   categories: ["major"]
 
 - name: 컴퓨터구조
-  #logo: 
-  summary: "컴구조 어쩌고"
   categories: ["major"]
 
 - name: 리눅스
-  #logo: 
-  summary: "리눅스 어쩌고"
   categories: ["major"]
 
 - name: 객체지향 프로그래밍
-  #logo: 
-  summary: "객지 어쩌고"
   categories: ["major"]
 
 - name: C/C++
-  #logo: 
-  summary: "C/C++ 어쩌고"
   categories: ["major", "language"]
 
 - name: Java
-  #logo: 
-  summary: "자바 어쩌고"
   categories: ["language"]
 
 - name: Python
-  #logo: 
-  summary: "파이썬 어쩌고"
   categories: ["language"]
 
 - name: 선형대수학
-  #logo: 
-  summary: "선대수 어쩌고"
   categories: ["major", "math"]
 
 - name: 이산수학
-  #logo: 
-  summary: "이산수학 어쩌고"
   categories: ["major", "math"]
 
 - name: 확률및통계
-  #logo: 
-  summary: "확통 어쩌고"
   categories: ["major", "math"]
 
 - name: 일렉기타
-  #logo: 
-  summary: "기타 어쩌고"
   categories: ["hobby"]
 
 - name: 러닝
-  #logo: 
-  summary: "러닝 어쩌고"
   categories: ["hobby"]
