@@ -21,6 +21,8 @@ buttons:
   filter: "math"
 - name: Language
   filter: "language"
+- name: Others
+  filter: "others"
 
 skills:
 # Your Skills.
@@ -46,6 +48,9 @@ skills:
 - name: Java
   categories: ["language"]
 
+- name: C#
+  categories: ["language"]
+
 - name: Python
   categories: ["language"]
 
@@ -63,3 +68,6 @@ skills:
 
 - name: Running
   categories: ["hobby"]
+
+- name: Unity
+  categories: ["other"]

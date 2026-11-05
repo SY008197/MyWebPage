@@ -21,6 +21,8 @@ buttons:
   filter: "math"
 - name: 언어
   filter: "language"
+- name: 기타
+  filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
@@ -51,6 +53,9 @@ skills:
 - name: Java
   categories: ["language"]
 
+- name: C#
+  categories: ["language"]
+
 - name: Python
   categories: ["language"]
 
@@ -68,3 +73,6 @@ skills:
 
 - name: 러닝
   categories: ["hobby"]
+
+- name: 유니티
+  categories: ["other"]
