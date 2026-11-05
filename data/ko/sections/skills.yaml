@@ -32,7 +32,7 @@ skills:
 # 취미: 일렉기타, 러닝 
 - name: 알고리즘
   #logo: 
-  summary: "알고리즘 어쩌고"
+  #summary: "알고리즘 어쩌고"
   categories: ["major"]
 
 - name: 자료구조
@@ -53,11 +53,6 @@ skills:
 - name: 객체지향 프로그래밍
   #logo: 
   summary: "객지 어쩌고"
-  categories: ["major"]
-
-- name: 리눅스
-  #logo: 
-  summary: "리눅스 어쩌고"
   categories: ["major"]
 
 - name: C/C++
