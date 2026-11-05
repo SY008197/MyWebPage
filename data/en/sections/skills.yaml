@@ -22,6 +22,7 @@ buttons:
 - name: Language
   filter: "language"
 
+skills:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 - name: Algorithm
