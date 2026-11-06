@@ -238,10 +238,11 @@ params:
     # Specify whether to show flag in the language selector. Default is true.
     flags:
       enable: true
-      # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - locale: en
-      #     countryCode: us
+      flagOverwrites:
+        - locale: ko
+          countryCode: kr
+        - locale: en
+          countryCode: us
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
