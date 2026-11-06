@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: '안녕하세요, 전북대학교에서 컴퓨터인공지능을 전공하고있는 장상영입니다. 관심분야는 게임 개발이며, 게임 개발 동아리인 GPU에서 Unity Engine기반 게임 개발 프로젝트 등의 활동을 하고있습니다.'
+summary: '안녕하세요, 전북대학교에서 컴퓨터인공지능을 전공하고있는 장상영입니다. 플레이어의 조작에 따라 수많은 상태 데이터와 시스템 규칙이 실시간으로 맞물려 동작하는 게임의 내부 구조에 매력을 느껴 게임 개발과 소프트웨어 아키텍처에 관심을 갖게 되었으며, 현재 게임 개발 동아리인 GPU에서 Unity Engine기반 게임 개발 프로젝트 등의 활동을 하고있습니다.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -32,27 +32,10 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/SY008197"
 
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+learningGoals:
+  title: "학습 목표 및 실행 계획"
+  goal: "컴퓨터 과학 전공 기초와 모듈형 설계 역량을 결합해 유지보수와 확장이 쉬운 2D 인디 게임을 완성·배포하는 것을 목표로 합니다."
+  plans:
+    - "전공 기초: 컴퓨터구조·알고리즘·객체지향 프로그래밍(Java) 핵심 이론과 실습 코드를 반복하며 기본기 강화"
+    - "게임 시스템 아키텍처 구현: 동아리 GPU 프로젝트에서 씬 전환 시에도 유지되는 공통 세이브/로드 모듈과 상태 관리 구조 직접 설계·검증"
+    - "완성 빌드 배포 및 아카이빙: 플레이 가능한 2D 인디 게임 데모를 배포하고 개발 과정과 문제 해결 기록을 포트폴리오에 정리"
