@@ -24,7 +24,7 @@ experiences:
 
 - company:
     name: Hugo & GitHub Actions 기반 개인 포트폴리오 웹사이트 구축
-    url: "https://sy008197.github.io/movie-lab-actions/"
+    url: "https://sy008197.github.io/MyWebPage/"
     location: 초급프로젝트 실습(개인 활동)
     overview: "Hugo와 CI/CD 자동 배포 파이프라인을 활용해 본인의 역량과 개발 활동을 체계적으로 기록·공개하는 반응형 개인 웹사이트를 구축하고자 수행한 개인 프로젝트입니다."
   positions:
