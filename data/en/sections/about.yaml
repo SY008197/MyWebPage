@@ -36,6 +36,6 @@ learningGoals:
   title: "Learning Goals & Action Plan"
   goal: "My goal is to combine core computer science foundations with modular software design to build and ship maintainable 2D indie games."
   plans:
-    - "Core CS Foundations: practice of core theories and code in Computer Architecture, Algorithms, and Java OOP."
-    - "Game System Architecture: Design and verify a shared save/load module and state management architecture in GPU club projects."
-    - "Playable Release & Archiving: Ship a playable 2D indie game demo build and archive development logs on this portfolio."
+    - "**Core CS Foundations**: practice of core theories and code in Computer Architecture, Algorithms, and Java OOP."
+    - "**Game System Architecture**: Design and verify a shared save/load module and state management architecture in GPU club projects."
+    - "**Playable Release & Archiving**: Ship a playable 2D indie game demo build and archive development logs on this portfolio."
