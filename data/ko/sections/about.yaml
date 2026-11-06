@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: 소개
   id: about
   enable: true
   weight: 1
