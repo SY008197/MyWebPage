@@ -53,9 +53,6 @@ skills:
 - name: Java
   categories: ["language"]
 
-- name: C#
-  categories: ["language"]
-
 - name: Python
   categories: ["language"]
 
@@ -74,5 +71,11 @@ skills:
 - name: 러닝
   categories: ["hobby"]
 
+- name: C#
+  categories: ["language"]
+  summary: "동아리 GPU 팀 프로젝트에서 유니티 스크립트 작성에 사용"
+
+
 - name: 유니티
   categories: ["others"]
+  summary: "동아리 GPU 팀 프로젝트에서 2D 씬 구성, UI 연동 및 세이브/로드 모듈 구현에 활용"

@@ -48,9 +48,6 @@ skills:
 - name: Java
   categories: ["language"]
 
-- name: C#
-  categories: ["language"]
-
 - name: Python
   categories: ["language"]
 
@@ -69,5 +66,10 @@ skills:
 - name: Running
   categories: ["hobby"]
 
+- name: C#
+  categories: ["language"]
+  ummary: "Used for writing Unity scripts in GPU club team projects."
+
 - name: Unity
   categories: ["others"]
+  summary: "Used in GPU club team projects for 2D scene setup, UI binding, and save/load module implementation."
