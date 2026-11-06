@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Hi, I am Sangyeong, an undergraduate studying Computer Science and Artificial Intelligence at Jeonbuk National University. Passionate about game development, I actively build Unity Engine-based game projects as a member of the game development club GPU.'
+summary: 'Hi, I am Sangyeong, an undergraduate studying Computer Science and Artificial Intelligence at Jeonbuk National University. Fascinated by how state data and system rules interact in real time behind player actions, I became deeply interested in game development and software architecture, and I am actively working on Unity Engine-based game projects in GPU, a game development club.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -32,28 +32,10 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/SY008197"
 
-
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+learningGoals:
+  title: "Learning Goals & Action Plan"
+  goal: "My goal is to combine core computer science foundations with modular software design to build and ship maintainable 2D indie games."
+  plans:
+    - "Core CS Foundations: practice of core theories and code in Computer Architecture, Algorithms, and Java OOP."
+    - "Game System Architecture: Design and verify a shared save/load module and state management architecture in GPU club projects."
+    - "Playable Release & Archiving: Ship a playable 2D indie game demo build and archive development logs on this portfolio."
