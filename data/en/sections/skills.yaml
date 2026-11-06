@@ -16,7 +16,7 @@ buttons:
 - name: Major
   filter: "major"
 - name: Hobby
-  filter: "hobby"
+  filter: "hobbies"
 - name: Math
   filter: "math"
 - name: Language
@@ -70,4 +70,4 @@ skills:
   categories: ["hobby"]
 
 - name: Unity
-  categories: ["other"]
+  categories: ["others"]

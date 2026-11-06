@@ -2,6 +2,15 @@
 [home]
 other = "Home"
 
+[about]
+other = "소개"
+
+[skills]
+other = "역량"
+
+[experiences]
+other = "대표 활동"
+
 [posts]
 other = "게시글"
 
