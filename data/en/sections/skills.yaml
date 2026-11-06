@@ -68,7 +68,7 @@ skills:
 
 - name: C#
   categories: ["language"]
-  ummary: "Used for writing Unity scripts in GPU club team projects."
+  summary: "Used for writing Unity scripts in GPU club team projects."
 
 - name: Unity
   categories: ["others"]
