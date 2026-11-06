@@ -33,7 +33,7 @@ languages:
   en:
     locale: en
     label: English
-    title: "Sangyeong's Portfolio"
+    title: "Jang's Blog"
     weight: 2
 
 
@@ -118,7 +118,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       # Configure the blog section path - defaults to 'posts'
       # section: blog
       showAuthor: true # shows the author of post (defaults true)
@@ -137,7 +137,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
