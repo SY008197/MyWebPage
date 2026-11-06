@@ -10,9 +10,8 @@
 
 <div class="container anchor p-lg-5 about-section" id="{{ $sectionID }}">
   <div class="row pt-sm-2 pt-md-4 align-self-center">
-    <!-- summary -->
-    <!-- takes up full section width if no badges/soft skills are specified -->
-    {{ if or (.softSkills) (.badges) }} <div class="col-sm-6"> {{ else }} <div class="col-sm-12"> {{ end }}
+    <!-- 좌측 영역: 자기소개 및 P71 관심 분야와 선택 이유 -->
+    {{ if or (.softSkills) (.badges) (.learningGoals) }} <div class="col-sm-6"> {{ else }} <div class="col-sm-12"> {{ end }}
       <h3 class="p-1">{{ $author.name }}</h3>
       {{ if .designation }}
       <h5 class="p-1">
@@ -51,14 +50,27 @@
       >
       {{ end }}
     </div>
-    <!-- soft skills circular-progressbar -->
-    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
+    <!-- 우측 영역: P72 학습 목표 및 실행 계획 -->
+    <div class="col-sm-6 pt-4 ps-md-4 ps-sm-3 pt-sm-0">
+      {{ if .learningGoals }}
+      <div class="p-3 rounded" style="border: 1px solid rgba(128, 128, 128, 0.3);">
+        <h4 class="p-1 mb-2">{{ .learningGoals.title }}</h4>
+        {{ if .learningGoals.goal }}
+        <p class="p-1 mb-2 text-justify">{{ .learningGoals.goal | markdownify }}</p>
+        {{ end }}
+        {{ if .learningGoals.plans }}
+        <ul class="ps-3 mb-0">
+          {{ range .learningGoals.plans }}
+          <li class="mb-2">{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      {{ end }}
       <div class="row">
         {{ range .badges }}
           {{ partial "misc/badge.html" . }}
         {{ end }}
-        <!-- TODO: Remove this part in version v4+ -->
-        <!-- Keep backward compatibility with old configuration -->
         {{ range .softSkills }}
           {{ partial "misc/soft-skills.html" . }}
         {{ end }}
